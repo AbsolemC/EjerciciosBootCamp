@@ -1,0 +1,8 @@
+.contenedor {
+    margin: 10px 0px;
+    background-color: beige;
+    width: 300px;
+    height: 100px;
+    padding: 15 px;
+    overflow: auto;
+}
