@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+    <head>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="row" id="primera-seccion">
+            <div class="bg-light p-5 rounded-3">
+                <div class="containter-fluid py-5">
+                    <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+                    <p class="col-md-8 fs-4">
+                        Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Example button</button>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Título del modal</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        Este es el cuerpo del modal
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="row p-5" id="segunda-seccion">
+            <form action="">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                    <label for="phonenumber" class="form-label">Teléfono</label>
+                    <input type="number" class="form-control" id="phonenumber">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensaje</label>
+                    <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+                </div>  
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>                
+        </form>
+        </section>
+        <section class="row p-5" id="tercera-seccion">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Camila González</h5>
+                    <p class="card-text">Hola! Soy Cami, Diseñadora multimedia y especialista en vectores.
+                            Siempre me gustó la parte de desarrollo web y apps, pude ver las bases mientras estudiaba diseño, pero conocí la programación en la secundaria, hacíamos proyectos sencillos en C# con Visual Studio.. Y acá estoy animándome a nuevos desafíos en esta ruta Full Stack Dev de Open Boot-Camp.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <label for="contactme" class="card-label">Contáctame: </label>
+                    <a href="mailto:gonzalezcamila.y@gmail.com" class="card-link" id="contactme">gonzalezcamila.y@gmail.com</a>
+                </div>
+                </div>
+        </section>
+
+    </body>
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+</script>
+</html>
