@@ -1,0 +1,20 @@
+.contenedor {
+    background-color: darkcyan;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    min-height: 10rem;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.item {
+    background-color: darksalmon;
+    padding: 0.25rem;
+    
+}
+
+.item:hover {
+    align-self: stretch;
+    flex-grow: 0.3;
+}
