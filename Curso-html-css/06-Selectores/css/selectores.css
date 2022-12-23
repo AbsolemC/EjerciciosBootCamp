@@ -1,0 +1,11 @@
+.contenedor p {
+    color: olivedrab;
+}
+.contenedor button {
+    background-color: gray;
+    border: none;
+    border-radius: 5%;
+}
+.contenedor button:hover{
+    background-color: rgb(153, 151, 151);
+}
