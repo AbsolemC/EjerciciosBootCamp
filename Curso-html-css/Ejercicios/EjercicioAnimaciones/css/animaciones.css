@@ -1,0 +1,16 @@
+.btn-modern{
+    padding: 5px 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid 2px transparent;
+    font-size: 14pt;
+    transition: all 0.4s;
+}
+.btn-modern:hover {
+    transform: translateY(5px);
+    border-bottom: solid 2px rgb(119, 118, 118);
+    background-color: darkcyan;
+    color: beige;
+}
