@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    font-size: 2rem;
+}
+.barra-lateral {
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategrey;
+    color: bisque;
+    padding: 10px;
+    gap: 10px;
+}
+
+.seccion-principal {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+@media (max-width: 640px){
+    .body{
+        flex-direction: column-reverse;
+        
+    }
+
+    .barra-lateral{
+        flex-direction: row;
+        max-height: 2rem;
+        justify-content: space-evenly;
+        align-self: flex-end;
+        align-items: flex-end;
+        position: fixed;
+    }
+}

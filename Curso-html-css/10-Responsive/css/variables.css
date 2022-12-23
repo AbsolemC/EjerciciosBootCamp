@@ -1,0 +1,18 @@
+:root {
+    --color-principal: #purple;
+    --ancho-principal: 250px
+}
+
+.titulo{
+    color: salmon;
+}
+
+.footer{
+    color: var(--color-principal);
+}
+
+.contenedor {
+    background-color: aquamarine;
+    padding: 1rem;
+    max-width: var(--ancho-principal);
+}
