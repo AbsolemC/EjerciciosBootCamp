@@ -1,0 +1,26 @@
+.row div{
+    margin: 0.25rem;
+}
+
+.col {
+    background-color: darkcyan;
+}
+
+.col-sm{
+    background-color: crimson;
+}
+
+.col-md{
+    background-color: darkmagenta;
+}
+
+.col-lg{
+    background-color: darkred;
+}
+
+.col-xl{
+    background-color: darkslateblue;
+}
+.col-xxl{
+    background-color: coral;
+}
