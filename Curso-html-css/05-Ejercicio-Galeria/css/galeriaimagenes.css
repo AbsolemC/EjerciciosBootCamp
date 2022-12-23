@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.imagen-principal {
+    width: 100%;
+}
+.imagengaleria{
+    width: 300px;
+}
+.galeria{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;    
+}
+.imagengaleria:hover{
+    zoom: 120%;
+    opacity: 0.3;
+    cursor: pointer;
+}
