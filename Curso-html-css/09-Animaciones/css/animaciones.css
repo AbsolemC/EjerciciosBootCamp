@@ -1,0 +1,66 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(28, 28, 151);
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+    /* transition: transform 1s cubic-bezier(1,-0.34, 0, 1.25); */
+    animation: traslacion 5s ease-in infinite forwards alternate;
+}
+
+.hijo:hover {
+    animation-play-state: paused;
+    
+}
+
+
+/* .padre:hover .hijo {
+    transform: translateX(100%);
+    background-color: lightsalmon;
+} */
+
+.hijo:hover{
+    transform: translateY(100%);
+}
+
+/* animaciones */
+/* @keyframes traslacion {
+    0% {
+        background-color: beige;
+        transform: translateX(0%);
+    }
+    50%{
+        background-color: darkmagenta;
+        transform: translateX(10%) translateY(50%);
+    }
+    100% {
+        background-color: darkorange;
+        transform: translate(100%);
+    }
+} */
+
+@keyframes traslacion {
+   
+   0%{
+    background-color: beige;
+    transform: translate(0%);
+   }
+   25%{
+    transform: translateX(100%);
+   }
+   50%{
+    transform: translatex(100%) translateY(100%);
+   }
+   75%{
+    transform: translateX(0%) translateY(100%);
+   }
+   100%{
+    background-color: deeppink;
+    transform: translateX(0%) translateY(0%);
+   }
+       
+}
